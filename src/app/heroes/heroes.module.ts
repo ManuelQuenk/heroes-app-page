@@ -13,6 +13,7 @@ import { CardComponent } from './components/card/card.component';
 
 import { HeroImagePipe } from './pipes/heroImage.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     NewPageComponent,
     SearchPageComponent,
     CardComponent,
+    DialogComponent,
 
     //Pipes
     HeroImagePipe,
